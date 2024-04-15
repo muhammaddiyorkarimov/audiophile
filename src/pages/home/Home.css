@@ -1,0 +1,233 @@
+.Home {
+	width: 100%;
+	overflow: hidden;
+}
+
+.header-product .container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background-image: url('./images/earphones.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 100vh;
+}
+
+.header-product {
+	width: 100%;
+	background-color: #0e0e0e;
+}
+
+.header-product .about {
+	width: 30%;
+}
+
+.header-product .about span {
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	color: grey;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.header-product .about h1 {
+	font-size: 44px;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.header-product .about p {
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+	letter-spacing: 1px;
+	margin: 20px 0;
+}
+
+.header-product .about button {
+	text-transform: uppercase;
+	padding: 10px 30px;
+	background-color: #D87D4A;
+	color: #fff;
+	border: 1px solid #D87D4A;
+	font-size: 14PX;
+}
+
+.header-product .about button:hover {
+	background-color: #FBAF85;
+}
+
+/* zx9 speaker */
+.zx9speaker {
+	margin-bottom: 40px;
+}
+
+.zx9speaker .container {
+	width: 100%;
+	height: 100%;
+	background-color: #D87D4A;
+	border: none;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 100px 100px 0;
+}
+
+.zx9speaker .container .image {
+	display: flex;
+	align-items: end;
+}
+
+.zx9speaker .container .about {
+	width: 40%;
+}
+
+.zx9speaker .container .about h1 {
+	font-size: 60px;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.zx9speaker .container .about p {
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+	letter-spacing: 1px;
+	margin: 20px 0;
+}
+
+.zx9speaker .container .about button {
+	text-transform: uppercase;
+	padding: 15px 30px;
+	background-color: #0e0e0e;
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	transition: 0.3s ease;
+}
+
+.zx9speaker .container .about button:hover {
+	background-color: #0e0e0edb;
+}
+
+/* zx7 speaker */
+.zx7speaker {
+	margin-bottom: 40px;
+}
+
+.zx7speaker .container {
+	height: 40vh;
+	border: none;
+	border-radius: 10px;
+	z-index: 100;
+	overflow: hidden;
+}
+
+.zx7speaker .container .image {
+	width: 100%;
+	height: 100%;
+	background-image: url('./images/zx7 speaker.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.zx7speaker .container .about {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: start;
+	justify-content: center;
+	padding-left: 100px;
+}
+
+.zx7speaker .container .about h1 {
+	font-size: 36px;
+	font-weight: 700;
+	color: #0e0e0e;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.zx7speaker .container .about button {
+	text-transform: uppercase;
+	padding: 15px 30px;
+	background-color: transparent;
+	color: #0e0e0e;
+	border: 1px solid #0e0e0e;
+	font-size: 14PX;
+	transition: 0.3s ease;
+}
+
+.zx7speaker .container .about button:hover {
+	background-color: #0e0e0e;
+	color: #fff;
+}
+
+/* YX1 EARPHONES */
+.yx1earphones {
+	margin-bottom: 80px;
+}
+
+.yx1earphones .container {
+	display: flex;
+	gap: 40px;
+}
+
+.yx1earphones .container .image {
+	width: 100%;
+	height: 320px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.yx1earphones .container .image img {
+	object-fit: cover;
+	width: 100%;
+	height: 320px;
+}
+
+.yx1earphones .container .about {
+	width: 100%;
+	height: 320px;
+	border: none;
+	border-radius: 10px;
+	background-color: #f7f6f6;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	gap: 20px;
+	padding-left: 40px;
+}
+
+.yx1earphones .container .about h1 {
+	font-size: 36px;
+	font-weight: 700;
+	color: #0e0e0e;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.yx1earphones .container .about button {
+	text-transform: uppercase;
+	padding: 15px 30px;
+	background-color: transparent;
+	color: #0e0e0e;
+	border: 1px solid #0e0e0e;
+	font-size: 14PX;
+	transition: 0.3s ease;
+}
+
+.yx1earphones .container .about button:hover {
+	background-color: #0e0e0e;
+	color: #fff;
+}

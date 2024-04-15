@@ -1,0 +1,29 @@
+@font-face {
+  font-family: ManropeRegular;
+  src: url('../public/fonts/Manrope-Regular.ttf');
+}
+
+@font-face {
+  font-family: ManropeBold;
+  src: url('../public/fonts/Manrope-Bold.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'ManropeRegular';
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+}
+
+i, button {
+  cursor: pointerw;
+}

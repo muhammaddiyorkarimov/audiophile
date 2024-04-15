@@ -1,0 +1,282 @@
+.wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* layout's header section */
+header {
+  background-color: #0E0E0E;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 90px;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid grey;
+}
+
+header .logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'ManropeBold';
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+nav li a:hover {
+  color: #D87D4A;
+}
+
+nav li a.active {
+  color: #D87D4A;
+}
+
+.header-cart {
+  font-size: 22px;
+  color: white;
+}
+
+/* cards: shop item */
+.cards {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 200px 0;
+}
+
+.cards .container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 40px;
+}
+
+.card {
+	position: relative;
+	height: 200px;
+	border: none;
+	border-radius: 10px;
+	background-color: #f7f6f6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: end;
+	padding-bottom: 20px;
+	border: 2px solid #f7f6f6;
+}
+
+.card img {
+	position: absolute;
+	bottom: 120px;
+}
+
+.card h2 {
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.card .shop {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.card .shop p {
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: grey;
+}
+
+.card .shop i {
+	color: #D87D4A;
+}
+
+.card:hover p {
+	color: #D87D4A;
+	cursor: pointer;
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.card:active {
+	border: 2px dashed #D87D4A;
+}
+
+.card:hover:active {
+	border: 2px dashed #D87D4A;
+}
+
+/* layout's bring earphones section */
+.bring-earphones {
+	margin-bottom: 120px;
+}
+
+.bring-earphones .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.bring-earphones .container .about {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 50%;
+}
+
+.bring-earphones .container .about h1 {
+	font-size: 36px;
+	font-weight: 700;
+	color: #0e0e0e;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.bring-earphones .container .about h1 span {
+	color: #D87D4A;
+}
+
+.bring-earphones .container .about p {
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	color: #0e0e0e;
+	letter-spacing: 1px;
+}
+
+.bring-earphones .container .image {
+	width: 50%;
+	height: 100%;
+	border: none;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.bring-earphones .container .image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+
+
+/* layout's footer section */
+footer {
+  background-color: #000;
+}
+
+.footer-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.footer-navbar .logo {
+  position: relative;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'ManropeBold';
+}
+
+.footer-navbar .logo::before {
+  content: "";
+  position: absolute;
+  height: 0.25rem;
+  width: 6.25rem;
+  background: #D87D4A;
+  top: -40px;
+}
+
+.footer-navbar nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-navbar nav li {
+  list-style: none;
+}
+
+.footer-navbar nav li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.footer-navbar nav li a:hover {
+  color: #D87D4A;
+}
+
+.footer-navbar nav li a.active {
+  color: #D87D4A;
+}
+
+.footer-main {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.footer-main p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f1f1f146;
+  width: 50%;
+}
+
+.footer-main .social-networks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.footer-main .social-networks i:hover {
+  color: #D87D4A;
+  cursor: pointer;
+}
+
+.footer-end {
+  color: #f1f1f1a5;
+  padding-bottom: 20px;
+}
